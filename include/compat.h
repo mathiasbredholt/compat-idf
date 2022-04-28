@@ -42,10 +42,6 @@ const char *gai_strerror(int);
 #define NI_NUMERICHOST 0x02
 #endif
 
-#ifndef NI_NUMERICSERV
-#define NI_NUMERICSERV 0x08
-#endif
-
 #ifndef PF_UNIX
 #define PF_UNIX AF_UNIX
 #endif
